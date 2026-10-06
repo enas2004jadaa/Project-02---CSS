@@ -1,0 +1,30 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    border: 10px solid;
+    margin: 20px;
+}
+.border-box{
+    box-sizing: content-box;
+    border-color: steelblue;
+}
+.border-box {
+    box-sizing: border-box;
+    border-color: rgb(167, 30, 57);
+}

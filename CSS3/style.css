@@ -1,0 +1,40 @@
+body{
+    font-family: Arial,sans-serif;
+    text-align: center;
+}
+.shapes{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(41, 119, 183);
+}
+.rectangle{
+    width: 160px;
+    height: 100px;
+    background-color: rgb(0, 255, 110);
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 161, 49);
+    border-radius: 50%;
+}
+.pill{
+    width: 180px;
+    height: 60px;
+    background-color: plum;
+    border-radius: 30px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid crimson;
+}

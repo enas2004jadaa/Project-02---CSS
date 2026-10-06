@@ -1,0 +1,35 @@
+body{
+    font-family: Arial,sans-serif;
+    text-align: center;
+}
+.palet{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.swatch {
+    width:180px;
+    height: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.named{
+    background-color: blue;
+}
+.hex{
+    background-color: #e77359;
+}
+.rgb{
+    background-color: rgb(71, 189, 150);
+}
+.rgba{
+    background-color: rgba(173, 19, 19, 0.5);
+}
+.opacity{
+    background-color: rgb(153, 59, 153);
+    opacity: 0.5;
+}
+.rgba-background{
+    background-color: rgba(215, 34, 143, 0.575);
+}
